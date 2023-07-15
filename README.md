@@ -1,6 +1,11 @@
-# AngularCrud
+# Angular CRUD
+Basic Angular app with Create-Read-Update-Delete functionalities.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+### Initiate the project
+Run in the terminal:
+    ```shell
+    ng new angular-crud
+    ```
 
 ### Development server
 
@@ -12,11 +17,15 @@ Run `json-server --watch db.json`. Navigate to `http://localhost:3000/employees`
 
 ### Material Angular
 
-[https://material.angular.io/components/categories](https://material.angular.io/components/categories)
+Visit the link for the docs: [https://material.angular.io/components/categories](https://material.angular.io/components/categories)
+1. Install package:
+    ```shell
+    ng add @angular/material
+    ```
 
 ### JSON SERVER
 
-- Visit the website to see the docs: [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+Visit the website to see the docs: [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
 1. Install the package:
     ```shell
     npm i json-server
@@ -24,4 +33,18 @@ Run `json-server --watch db.json`. Navigate to `http://localhost:3000/employees`
 1. Running the server:
     ```shell
     json-server --watch db.json
+    ```
+
+### Create the components
+1. Create the Dialog component
+    ```shell
+    ng g c emp-add-edit
+    ```
+1. Create a new folder under app and name it `services` then create the employee service.
+    ```shell
+    ng g s services/employee
+    ```
+1. Create a new folder under app and name it `core` then create the core service.
+    ```shell
+    ng g s core/core
     ```
