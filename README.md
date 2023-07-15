@@ -2,7 +2,7 @@
 Basic Angular app with Create-Read-Update-Delete functionalities.
 
 ### Initiate the project
-Run in the terminal:
+1. Run in the terminal:
     ```shell
     ng new angular-crud
     ```
